@@ -7,6 +7,5 @@ const reader = async (fileName) => {
   return content.toString();
 };
 
-reader(fileName).then((a)=> console.log(a));
-
+reader(fileName).then((a) => console.log(a));
 module.exports =  reader ;
